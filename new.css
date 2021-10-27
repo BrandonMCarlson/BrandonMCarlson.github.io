@@ -1,7 +1,7 @@
 .grid {
 	display: grid;
 	place-content: center;
-	color:black;
+	color:rgb(245, 240, 240);
 	font-size: 55px;
 	
 }
@@ -9,7 +9,8 @@
 body {
 	background: url(images/backgriound3.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
+	place-content: center;
 }
 
 .card {
@@ -31,6 +32,13 @@ h1 {
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-div {
-	align-items: center;
+.nav-link{
+	color:rgb(247, 245, 243);
+}
+
+.nav{
+	width: 10%;
+}
+.card-body{
+	text-align:center;
 }
