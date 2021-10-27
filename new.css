@@ -2,17 +2,20 @@
 	display: grid;
 	place-content: center;
 	color:black;
+	
 }
 
 body {
 	background: url(images/backgriound3.jpg);
 	background-repeat: no-repeat;
-	background-size: 2000px 1200px;
+	background-size: 2000px 1500px;
 }
 
 .card {
-	max-width: 100%;
+	max-width: 40rem;
+	place-content: center;
 	margin: auto;
+	
 }
 
 .card-text {
