@@ -1,0 +1,21 @@
+.grid {
+	display: grid;
+	place-content: center;
+	color:black;
+}
+
+body {
+	background: url(images/backgriound3.jpg);
+	background-repeat: no-repeat;
+	background-size: 2000px 1200px;
+}
+
+.card {
+	max-width: 100%;
+	margin: auto;
+}
+
+.card-text {
+	word-wrap: center;
+}
+
